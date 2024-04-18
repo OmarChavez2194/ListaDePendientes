@@ -1,0 +1,273 @@
+/* Estilos para el cuerpo de la página */
+body {
+  margin: 0; /* Margen exterior */
+  padding: 0; /* Relleno interior */
+  font-size: 18px; /* Tamaño de la fuente */
+  font-family: Arial, Helvetica, sans-serif; /* Fuente */
+  line-height: 1.5; /* Altura de línea */
+  background-color:  #234880; /* Color de fondo */
+  color: white; /* Color del texto */
+  overflow-x: hidden; /* Ocultar desplazamiento horizontal */
+}
+
+/* Estilos para los encabezados h1 */
+h1 {
+  text-align: center; /* Alineación del texto al centro */
+  color: #092857; /* Color del texto */
+}
+
+/* Estilos para los párrafos */
+p {
+  color: black; /* Color del texto */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  margin-top: 40px; /* Margen superior */
+  margin-bottom: 30px; /* Margen inferior */
+  width: 40%; /* Ancho */
+  margin-left: auto; /* Margen izquierdo automático */
+  margin-right: auto; /* Margen derecho automático */
+  background-color: white; /* Color de fondo */
+  padding: 40px; /* Relleno interior */
+  border-radius: 8px; /* Bordes redondeados */
+}
+
+/* Texto Tareas pendientes */
+.pendientes {
+  text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilos para el formulario */
+form {
+  display: flex; /* Mostrar como flexbox */
+  justify-content: center; /* Centrar horizontalmente */
+}
+
+/* Estilos para los campos de entrada */
+input {
+  padding: 15px 10px; /* Relleno interior */
+  outline: none; /* Sin contorno */
+  width: 100%; /* Ancho del campo de entrada */
+  max-width: 800px; /* Ancho máximo del campo de entrada */
+}
+
+/* Estilos para el contenedor de la lista de elementos */
+.li-container {
+  background-color: white; /* Color de fondo */
+  width: 100%; /* Ancho */
+  color: darkslategray; /* Color del texto */
+  margin-top: 20px; /* Margen superior */
+}
+
+/* Estilos para las listas desordenadas */
+ul {
+  padding: 0; /* Relleno interior */
+}
+
+/* Estilos para los elementos de lista */
+li {
+  list-style: none; /* Sin viñetas */
+  background-color: lightgray; /* Color de fondo */
+  margin-top: 10px; /* Margen superior */
+  display: flex; /* Mostrar como flexbox */
+}
+
+/* Estilos para los párrafos dentro de los elementos de lista */
+li p {
+  margin: 0; /* Margen exterior */
+  padding: 15px; /* Relleno interior */
+  width: 100%; /* Ancho */
+}
+
+/* Estilos para el botón de agregar */
+.btn-add {
+  padding: 5px 15px; /* Relleno interior */
+  border: none; /* Sin borde */
+  color: white; /* Color del texto */
+  font-family: fantasy; /* Fuente */
+  background-color: #207e31; /* Color de fondo */
+  font-size: 1.4rem; /* Tamaño de la fuente */
+  outline: none; /* Sin contorno */
+}
+
+/* Estilos para el botón de agregar al pasar el ratón por encima */
+.btn-add:hover {
+  cursor: pointer; /* Cursor de ratón */
+  background-color: rgb(28, 102, 9); /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el texto de elementos vacíos */
+.empty {
+  color: darkslategrey; /* Color del texto */
+}
+
+/* Estilos para el botón "Terminadas" */
+.btn-terminadas {
+  padding: 10px 20px; /* Relleno interior */
+  background-color: #4CAF50; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de ratón */
+}
+
+/* Estilos para el botón de tareas terminadas al pasar el ratón por encima */
+.btn-terminadas:hover {
+  background-color: #45a049; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el botón de tareas terminadas al hacer clic */
+.btn-terminadas:active {
+  background-color: #3e8e41; /* Color de fondo al hacer clic */
+}
+
+/* Estilo del recuadro de la tarea */
+li {
+  background-color: #f2f2f2; /* Color de fondo */
+  border: 1px solid #ccc; /* Borde */
+  padding: 1px; /* Espacio interno */
+  margin-bottom: 5px; /* Margen inferior */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilo del texto de la tarea */
+li p {
+  font-size: 18px; /* Tamaño de fuente */
+  color:  black; /* Color del texto */
+  margin-left: 10px; /* Margen izquierdo */
+  display: inline; /* Mostrar en línea */
+}
+
+/* Estilo del checkbox */
+li input[type="checkbox"] {
+  margin-left: 10px; /* Margen izquierdo */
+  width: 40px; /* Ancho del checkbox */
+  height: 50px; /* Altura del checkbox */
+  border: 2px solid #ccc; /* Borde del checkbox */
+  border-radius: 4px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de ratón */
+}
+
+/* Estilo del checkbox al pasar el ratón por encima */
+li input[type="checkbox"]:hover {
+  background-color: #ddd; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el botón "Eliminar seleccionadas" */
+.btn-eliminar-seleccionadas {
+  padding: 5px 10px; /* Relleno interior */
+  background-color: #bb2142; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 1px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de ratón */
+}
+
+/* Estilos para el botón "Eliminar seleccionadas al pasar el ratón" */
+.btn-eliminar-seleccionadas:hover {
+  background-color: #a4213d; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el botón "Eliminar permanente" */
+.btn-permanent-delete {
+  padding: 5px 10px; /* Relleno interior */
+  background-color: #bb2142; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 1px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de ratón */
+}
+
+/* Estilo para el fondo del botón al pasar el ratón */
+.btn-permanent-delete:hover {
+  background-color: #a4213d; /* Color de fondo al pasar el ratón */
+}
+
+/* Importación de la fuente 'Poppins' desde Google Fonts (API) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+/* Estilos para el pie de página */
+.footer {
+  position: relative; /* Posición relativa */
+  width: 100%; /* Ancho del pie de página */
+  background: #3586ff; /* Color de fondo */
+  min-height: 100px; /* Altura mínima */
+  padding: 20px 50px; /* Relleno interior */
+  display: flex; /* Mostrar como flexbox */
+  flex-direction: column; /* Dirección de los elementos flexibles */
+}
+
+/* Estilos para los párrafos dentro del pie de página */
+.footer p {
+  color: #fff; /* Color del texto */
+  margin: 15px 0 10px 0; /* Margen exterior */
+  font-size: 1rem; /* Tamaño de la fuente */
+  font-weight: 300; /* Grosor de la fuente */
+  text-align: center; /* Alineación del texto al centro */
+  margin-left: -57px; /* Margen izquierdo negativo */
+}
+
+/* Estilos para el efecto de onda en el fondo del pie de página */
+.wave {
+  position: absolute; /* Posición absoluta */
+  top: -100px; /* Distancia desde la parte superior */
+  left: 0; /* Distancia desde la izquierda */
+  width: 100%; /* Ancho */
+  height: 100px; /* Altura */
+  background: url("https://i.ibb.co/wQZVxxk/wave.png"); /* Imagen de onda */
+  background-size: 1000px 100px; /* Tamaño de la imagen */
+}
+
+/* Animación para las ondas 1 */
+.wave#wave1 {
+  z-index: 1000; /* Índice z */
+  opacity: 1; /* Opacidad */
+  bottom: 0; /* Distancia desde la parte inferior */
+  animation: animateWaves 4s linear infinite; /* Animación */
+}
+
+/* Animación para las ondas 2 */
+.wave#wave2 {
+  z-index: 999; /* Índice z */
+  opacity: 0.5; /* Opacidad */
+  bottom: 10px; /* Distancia desde la parte inferior */
+  animation: animate 4s linear infinite !important; /* Animación */
+}
+
+/* Animación para las ondas 3 */
+.wave#wave3 {
+  z-index: 1000; /* Índice z */
+  opacity: 0.2; /* Opacidad */
+  bottom: 15px; /* Distancia desde la parte inferior */
+  animation: animateWaves 3s linear infinite; /* Animación */
+}
+
+/* Animación para las ondas 4 */
+.wave#wave4 {
+  z-index: 999; /* Índice z */
+  opacity: 0.7; /* Opacidad */
+  bottom: 20px; /* Distancia desde la parte inferior */
+  animation: animate 3s linear infinite; /* Animación */
+}
+
+/* Definición de la animación para el movimiento de las olas */
+@keyframes animateWaves {
+  0% {
+    background-position-x: 1000px; /* Posición inicial de las olas fuera del área visible */
+  }
+  100% {
+    background-positon-x: 0px; /* Posición final de las olas al borde izquierdo del área visible */
+  }
+}
+
+/* Definición de la animación para el movimiento del fondo */
+@keyframes animate {
+  0% {
+    background-position-x: -1000px; /* Posición inicial del fondo fuera del área visible hacia la izquierda */
+  }
+  100% {
+    background-positon-x: 0px; /* Posición final del fondo al borde izquierdo del área visible */
+  }
+}
+

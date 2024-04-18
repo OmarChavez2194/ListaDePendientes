@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!-- Define el tipo de documento como HTML -->
+<html lang="en"> <!-- Indica que el idioma principal del contenido es inglés -->
+<head> <!-- Abre el encabezado -->
+    <meta charset="UTF-8"> <!-- Define la codificación de caracteres como UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Especifica la compatibilidad con Internet Explorer -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configura la visualización en dispositivos móviles -->
+    <title>Task</title> <!-- Define el título de la página -->
+    <link rel="stylesheet" href="./style.css"> <!-- Enlaza la hoja de estilos externa -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet"> <!-- Enlaza la fuente Lato desde Google Fonts, conexión a las APIS-->
+</head> <!-- Cierra el encabezado -->
+<body> <!-- Abre el cuerpo del código -->
+    <div class="container"> <!-- Contenedor principal -->
+        <h1>Task Manager 💼</h1> <!-- Encabezado de nivel 1 que dice "Task Manager"-->
+        <div class="search"> <!-- Contenedor de búsqueda -->
+            <form> <!-- Formulario para agregar tarea -->
+                <input type="text" placeholder="Agregar tarea..."> <!-- Campo de entrada de texto -->
+                <button class="btn-add">+</button> <!-- Botón para agregar tarea + -->
+            </form> <!-- Cerrar formulario -->
+        </div> <!-- Cierra el contenedor de búsqueda -->
+
+        <div class="pendientes"> <!-- Contenedor de tareas "pendientes" -->
+            <p id="tareasPendientesTexto" style="display: none;">Tareas pendientes:</p> <!-- Párrafo para mostrar el texto "Tareas pendientes" -->
+        </div> <!-- Cierra el contenedor de tareas "pendientes" -->
+        <div class="li-container"> <!-- Contenedor de lista de tareas -->
+            <ul> <!-- Lista no ordenada -->
+                
+            </ul> <!-- Cierra las listas no ordenadas -->
+        </div> <!-- Cierra contenedor de lista de tareas -->
+        <div class="empty"> <!-- Contenedor para cuando no hay tareas pendientes -->
+            <p>No tienes tareas pendientes.</p> <!-- Mensaje cuando no hay tareas pendientes -->
+        </div> <!-- Cierra contenedor de mensaje de tareas pendientes -->
+        
+        <div class="deleted-container" style="display: none;"> <!-- Contenedor de tareas eliminadas -->
+            <p id="tareasTerminadasTexto" style="display: none;">Tareas terminadas:</p> <!-- Párrafo para mostrar el texto "Tareas terminadas" -->
+            <ul class="deleted-tasks"> <!-- Lista de tareas eliminadas -->
+                
+            </ul> <!-- Cierra lista de tareas eliminadas -->
+        </div> <!--Cierra contenedor de tareas eliminadas -->
+
+        <button class="btn-eliminar-seleccionadas" style="display: none;">Eliminar Tareas</button> <!-- Botón para eliminar tareas seleccionadas -->
+        <br> <!-- Salto de línea -->
+        <button class="btn-permanent-delete" style="display: none;">Eliminar Tarea terminada</button> <!-- Botón para eliminar tarea terminada -->
+        <br> <!-- Salto de línea -->
+        <button class="btn-terminadas" id="verTareasTerminadasBtn" disabled>Ver Tareas Terminadas</button> <!-- Botón para ver tareas terminadas -->
+    </div> <!-- Cierra contenedor principal -->
+    <script src="./lista.js"></script> <!-- Enlaza el archivo de JavaScript llamado "lista.js"-->
+</body> <!-- Cierra el cuerpo de código -->
+         <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+        <br> <!-- Salto de línea -->
+ 
+   
+
+<footer class="footer"> <!-- Pie de página -->
+    <div class="waves"> <!-- Contenedor de ondas decorativas -->
+        <div class="wave" id="wave1"></div> <!-- Onda 1 -->
+        <div class="wave" id="wave2"></div> <!-- Onda 2 -->
+        <div class="wave" id="wave3"></div> <!-- Onda 3 -->
+        <div class="wave" id="wave4"></div> <!-- Onda 4 -->
+    </div> <!-- Cierra contenedor de ondas decorativas -->
+   
+    </ul> <!-- Etiqueta de cierre errónea -->
+
+    <p>&copy;2024 Esteban Gabriel | Omar Chávez</p> <!-- Derechos de autor -->
+</footer> <!-- Cierre de pie de página -->
+
